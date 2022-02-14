@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tv Show Search box</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="showBox.css">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" ></script>
+    </head>
+    <body>
+       <h1>TV Show Search Box</h1>
+       <header id="header">
+       <form id="searchForm">
+        <select name="episodes" id="episodeSelector"><option value="all">All Episodes Sellector</option></select> 
+          <input autocomplete="off" type="text" placeholder="Tv Show Title..." name="query"/>
+          <button>Search</button>
+       </form>
+       </header> 
+        <script src="showBox.js" ></script>
+    </body>
+</html>
